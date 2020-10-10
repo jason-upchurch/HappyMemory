@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+
+# Generated test files
+/tests/**/*
+!/tests/**/*.cpp
+!CMakeLists.txt
