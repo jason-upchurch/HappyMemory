@@ -1,10 +1,11 @@
-#include <math.h>
- 
-double squareRoot(const double a) {
-    double b = sqrt(a);
-    if(b != b) { // nan check
-        return -1.0;
-    }else{
-        return sqrt(a);
-    }
+// ***************************************************************** -*- C++ -*-
+// exifprint.cpp, $Rev: 3090 $
+// Sample program to print the Exif metadata of an image
+#include <exiv2/exiv2.hpp>
+#include <iostream>
+#include <iomanip>
+#include <cassert>
+int main(int argc, char* const argv[])
+{
+  return 0;
 }
